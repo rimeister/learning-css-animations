@@ -17,6 +17,3 @@ body {
 	/* Transforms have a stacking order, so the order affects the look */
 	transform: rotate(45deg) scale(2) translate(100px,50px) skew(20deg);
 }
-
-
-
