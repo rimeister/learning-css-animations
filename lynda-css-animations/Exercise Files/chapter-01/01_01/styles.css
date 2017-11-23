@@ -10,7 +10,12 @@ body {
 }
 
 .blue_robot {
-	
+	/* Transforms can twist flat-looking objects around into different-looking shapes. Often used to translate or move an object around the window*/
+	/* This moves the robot 200px to the right */
+	/* %'s move it as a percentage of the elements's own width */
+	/* Transforms can also scale, skew, and rotate objects in addition to translating them. */
+	/* Transforms have a stacking order, so the order affects the look */
+	transform: rotate(45deg) scale(2) translate(100px,50px) skew(20deg);
 }
 
 
