@@ -24,7 +24,11 @@ body {
 /* You need to name your animation so you can assign it somewhere */
 @keyframes slide {
 
-	from {transform: translateX(0);}
-	to {transform: translateX(900px);}
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(900px);
+	}
 
 }
