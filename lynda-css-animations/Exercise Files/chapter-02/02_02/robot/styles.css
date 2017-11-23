@@ -12,13 +12,16 @@ body {
 }
 
 .robot {
+
 	animation-name: slide;
 	animation-duration: 2s;
-	animation-timing-function: ease-in;
-	animation-iteration-count: 1;
+
 }
 
+/* You need to name your animation so you can assign it somewhere */
 @keyframes slide {
+
 	from {transform: translateX(0);}
 	to {transform: translateX(900px);}
+
 }
