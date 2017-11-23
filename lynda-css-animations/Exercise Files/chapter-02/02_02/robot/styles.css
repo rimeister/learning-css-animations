@@ -18,6 +18,8 @@ body {
 	/* Ease-in starts off a little bit slow, then speeds up */
 	animation-timing-function: ease-in;
 	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-direction: reverse;
 
 }
 
