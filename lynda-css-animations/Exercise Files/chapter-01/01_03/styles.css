@@ -32,7 +32,7 @@ button {
 	margin: 2em auto;
 	display:block;
 	/* Transition properties get added to the elementn that will be transform. "If any of your properties change, transition the change at this duration."*/
-	transition: background .5s ease-in, transform .25s ease-in-out ;
+	transition: background .5s ease-in, transform .5s .25s ease-in-out ;
 }
 
 button:hover {
