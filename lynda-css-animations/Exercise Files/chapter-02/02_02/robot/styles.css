@@ -14,8 +14,8 @@ body {
 .robot {
 
 	animation-name: slide;
+	animation-direction: alternate;
 	animation-duration: 3s;
-	/* Ease-in starts off a little bit slow, then speeds up */
 	animation-timing-function: cubic-bezier(.02, .86, .97, .43);
 	animation-iteration-count: 4;
 	animation-fill-mode: forwards;
