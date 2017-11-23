@@ -17,9 +17,9 @@ body {
 	animation-duration: 2s;
 	/* Ease-in starts off a little bit slow, then speeds up */
 	animation-timing-function: ease-in;
-	animation-iteration-count: 1;
+	animation-iteration-count: 2;
 	animation-fill-mode: forwards;
-	animation-direction: reverse;
+	animation-direction: alternate;
 
 }
 
