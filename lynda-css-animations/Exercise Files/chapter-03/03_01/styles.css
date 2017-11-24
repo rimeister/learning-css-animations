@@ -23,10 +23,8 @@ body {
 .fcloud01 {
 	top:100px;
 	z-index:100;
-	animation-name: drift;
-	animation-duration: 25s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
+	/* this is the shorthand for the above animation styles. Order isn't that important. */
+	animation: drift 25s linear infinite;
 }
 		
 .fcloud02 {
