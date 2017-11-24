@@ -28,7 +28,8 @@ body {
 		
 .fcloud02 {
 	top:240px;
-	z-index: 200;	
+	z-index: 200;
+	animation: drift 35s 10s linear infinite backwards;
 }
 
 
