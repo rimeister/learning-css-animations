@@ -22,7 +22,7 @@ body {padding:6em; background:#fcfcfc;}
   animation-play-state: paused;
 }
 
-.sticker:hover {
+.sticker.active{
   animation-play-state: running;
 }
 

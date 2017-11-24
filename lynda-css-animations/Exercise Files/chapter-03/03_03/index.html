@@ -17,7 +17,15 @@
 </div>
     
     
-    
+    <script type="text/javascript">
+      document.getElementsByClassName('sticker')[0].addEventListener('click', function(event){
+        if ( this.classList.contains("active") ) {
+          this.classList.remove("active");
+        } else {
+          this.classList.add("active");
+        }
+      });
+    </script>
     
     
   </body>
