@@ -23,7 +23,6 @@ body {
 .fcloud01 {
 	top:100px;
 	z-index:100;
-	/* this is the shorthand for the above animation styles. Order isn't that important. */
 	animation: drift 25s linear infinite;
 }
 		
