@@ -83,7 +83,6 @@ button:hover {
   background-color: #FB5362;
 }
 
-
 section {
   animation: slideIn .8s linear, fadeIn .2s ease-in;
 }
@@ -106,7 +105,6 @@ section {
     animation-timing-function: ease-in;
   }
 }
-
 
 @keyframes fadeIn {
   from {

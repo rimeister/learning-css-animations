@@ -17,10 +17,17 @@ body {padding:6em; background:#fcfcfc;}
   width:200px;
   height:200px;
   position:absolute;
-  background: url(sticker.png) top center no-repeat; 
+  background: url(sticker.png) top center no-repeat;
+  animation: spin 10s linear infinite;
 }
 
+@keyframes spin {
 
+  100% {
+    transform: rotate(1turn);
+  }
+
+}
 
 
 
