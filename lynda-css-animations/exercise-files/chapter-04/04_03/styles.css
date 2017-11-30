@@ -4,7 +4,9 @@
 }
 
 .fill {
-	animation: charge 1s cubic-bezier(.17, .67, .54, .99);
+	animation:
+		charge 1s cubic-bezier(.17, .67, .54, .99),
+		changeCol 1s ease-out forwards;
 }
 
 @keyframes charge {
@@ -13,5 +15,14 @@
 	}
 	100% {
 		transform: scaleX(1);
+	}
+}
+
+@keyframes changeCol{
+	0%, 30% {
+		fill: red;
+	}
+	40%, 100% {
+		fill: #72CC58;
 	}
 }
